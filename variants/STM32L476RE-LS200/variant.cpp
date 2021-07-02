@@ -100,8 +100,8 @@ extern const PinDescription g_APinDescription[NUM_TOTAL_PINS] =
     // 32..37 QSPI pins (NCS,CK,IO0,IO1,IO2,IO3)
     { GPIOB,  GPIO_PIN_MASK(GPIO_PIN_PB11), GPIO_PIN_PB11,           0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
     { NULL,  GPIO_PIN_MASK(GPIO_PIN_PB10), GPIO_PIN_PB10,           0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
-    { NULL,  GPIO_PIN_MASK(GPIO_PIN_PB1),  GPIO_PIN_PB1,            0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
-    { NULL,  GPIO_PIN_MASK(GPIO_PIN_PB0),  GPIO_PIN_PB0,            0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
+    { GPIOB,  GPIO_PIN_MASK(GPIO_PIN_PB1),  GPIO_PIN_PB1,            0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
+    { GPIOB,  GPIO_PIN_MASK(GPIO_PIN_PB0),  GPIO_PIN_PB0,            0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
     { NULL,  GPIO_PIN_MASK(GPIO_PIN_PA7),  GPIO_PIN_PA7,            0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
     { GPIOA,  GPIO_PIN_MASK(GPIO_PIN_PA6),  GPIO_PIN_PA6,            0,                                                              PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
 

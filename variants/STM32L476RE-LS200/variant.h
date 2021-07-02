@@ -176,6 +176,11 @@ static const uint8_t BUTTON = PIN_BUTTON;
 #define LS_INT_ACC_2 34
 #define LS_INT_ACC_1 35
 
+#define LS_SKY_ANT	34
+#define LS_SKY_CSD	35
+#define LS_SKY_CTX	42
+#define LS_SKY_CPS	43
+
 #define E22_RXEN 1
 #define E22_BUSY 2
 #define E22_NRST 14
